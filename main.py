@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from google.colab import userdata
 
 # Load Groq API key from Colab Secrets
-GROQ_API_KEY = userdata.get("GROQ_API_KEY")
+GROQ_API_KEY = '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'
 
 # Load PDF
 loader = PyPDFLoader("dell_latitude_5420_troubleshooting_demo.pdf")
